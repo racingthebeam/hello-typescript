@@ -2,7 +2,7 @@
 
 My standard TypeScript project template, supporting multiple "app" entry points, and shared libraries in `src/libs`.
 
-It's deliberately simple - no linters, frameworks, Tailwind etc. I *have* included SASS, which these days I tend to use just as a bundler rather than leaning on its more advanced features.
+It's deliberately simple - no linters, frameworks, Tailwind etc. Add them when you need them. I *have* included SASS, which these days I tend to use just as a bundler rather than leaning on its more advanced features.
 
 Stack:
 
@@ -19,3 +19,8 @@ Stack:
 Run `npm install`, then:
 
   - `./scripts/dev`: for dev build watcher, test watcher, and local server
+
+## Notes
+
+  - Bundled files land in `www/assets`
+  - Per-environment variables are loaded from `env/*.env` - list them in `src/env.d.ts` so TypeScript doesn't complain

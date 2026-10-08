@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsx build.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "dotenv": "^17.4.2",
+    "esbuild": "^0.28.0",
+    "esbuild-sass-plugin": "^3.7.0",
+    "jsdom": "^29.1.1",
+    "sass": "^1.100.0",
+    "serve": "^14.2.6",
+    "tsx": "^4.22.4",
+    "vitest": "^4.1.8"
+  }
+}
